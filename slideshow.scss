@@ -1,0 +1,152 @@
+.ways-to-use {
+	max-width: 575px;
+
+	margin: 80px auto;
+
+	@media (max-width: 800px) {
+		max-width: 342px;
+		max-height: 512px;
+	}
+
+	@media (max-width: 800px) {
+		.slick-slide img {
+			max-width: max-content;
+		}
+	}
+
+	.slick-dotted.slick-slider {
+		margin-block-end: 40px;
+	}
+
+	.slick-dots {
+		bottom: 25px;
+	}
+
+	.slick-dots li {
+		margin: 0 4px;
+		width: auto;
+		height: auto;
+	}
+
+	.slick-dots li button {
+		background: #bdc3dc;
+		width: auto;
+		height: auto;
+	}
+
+	.slick-dots li button:before {
+		font-size: 6px;
+		line-height: 8px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 8px;
+		height: 8px;
+		text-align: center;
+	}
+
+	a {
+		color: #151b33;
+		text-align: center;
+		font-family: Paze Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 1.37; /* 137.5% */
+		text-decoration: underline;
+		display: block;
+	}
+
+	.section-title {
+		font-family: "Paze Sans";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 1.2;
+		text-align: center;
+		color: #0f42f8;
+		margin-block-end: 24px;
+	}
+
+	.slick-slide {
+		// opacity: 0.5;
+		background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%);
+		mix-blend-mode: multiply;
+		height: 378px;
+		flex-shrink: 0;
+		border-radius: 24px;
+		color: white;
+		position: relative;
+		display: flex;
+		// height: auto;
+		align-items: center;
+		justify-content: center;
+		@media (max-width: 800px) {
+			background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%);
+			height: 512px;
+		}
+	}
+
+	.red {
+		// background-color: #ff595880;
+		background-color: #ff5958;
+		// padding: 45px 37px 52px 41px;
+	}
+
+	.yellow {
+		// background-color: #f2ab3b80;
+		background-color: #f2ab3b;
+		// padding: 44px 37px 54px 41px;
+	}
+
+	.green {
+		// background-color: #66cd5880;
+		background-color: #66cd58;
+		// padding: 51px 31px 52px 41px;
+	}
+
+	.blue {
+		// background-color: #3f496d80;
+		background-color: #3f496d;
+		// padding: 48px 0 95px 39px;
+	}
+
+	p {
+		font-family: Paze Sans;
+		font-size: 59.838px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 110%;
+		@media (max-width: 800px) {
+			font-size: 48px;
+		}
+	}
+
+	.top {
+		position: absolute;
+		top: 45px;
+		left: 40px;
+		z-index: -1;
+	}
+
+	.blue .top {
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 40px;
+	}
+
+	.bottom {
+		position: absolute;
+		bottom: 52px;
+		right: 37px;
+		text-align: right;
+
+		font-size: 62.054px;
+		line-height: 110%;
+		z-index: -1;
+		@media (max-width: 800px) {
+			font-size: 48px;
+		}
+	}
+}

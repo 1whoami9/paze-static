@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.accordion-component {
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 44px));
+  grid-gap: 88px;
+  padding-block: 120px;
+  width: 100%;
+  /**
+     * Accordion container element
+     */
+  /**
+     * Add zero-width space. needed to ensure Safari + VO respect list semantics.
+     * Set the before content to position absolute to negate any visible space
+     * the before content could add to the document.
+     */
+  /**
+     * Accordion Heading
+     */
+  /*
+  .accordion__trigger:after {
+  	bottom: 0;
+  	content: url(images/expand_more.svg);
+  	height: 12.94px;
+  	margin: auto;
+  	position: absolute;
+  	right: 1em;
+  	top: -22px;
+  	transition: transform 0.2s ease-in-out;
+  	transform-origin: center center;
+  	transform: rotate(0deg);
+  	width: 22.6px;
+  }
+  */
+  /*
+  .accordion__trigger[aria-expanded="false"] {
+  	border-bottom: 1px solid $color-gray3;
+  }
+
+  */
+  /**
+     * This is needed to allow a double tap iOS 11
+     * Safari + VO to function correctly, if there
+     * are multiple elements (wrapper spans) to layout
+     * text nodes within the accordion button.
+
+         -- This is not needed if a button only contains text
+         and no other child nodes wrapping the text --
+
+     .accordion__trigger > * {
+         pointer-events: none;
+     }
+     */
+}
+.accordion-component .section-title {
+  padding-block: 48px;
+}
+@media (max-width: 800px) {
+  .accordion-component .section-title {
+    padding-block: 32px;
+  }
+}
+@media (max-width: 800px) {
+  .accordion-component {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: max-content max-content;
+    grid-gap: 48px;
+  }
+}
+.accordion-component > figure {
+  width: 100%;
+  height: 100%;
+}
+.accordion-component > figure img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.accordion-component video {
+  aspect-ratio: 4/3;
+  height: 880px;
+  width: 100%;
+  object-fit: cover;
+}
+.accordion-component *,
+.accordion-component *:before,
+.accordion-component *:after {
+  box-sizing: border-box;
+}
+.accordion-component .accordion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.accordion-component .accordion > li {
+  margin: 0;
+}
+.accordion-component .accordion > li:before {
+  content: "​";
+  position: absolute;
+}
+.accordion-component .accordion__heading {
+  font-size: inherit;
+  margin: 0 0 0 -1px;
+}
+.accordion-component .accordion__trigger {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: inherit;
+  margin: 0;
+  padding: 61px 48px 61px 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  z-index: 2;
+}
+.accordion-component .accordion__trigger:hover:after,
+.accordion-component .accordion__trigger:focus:after,
+.accordion-component .accordion__trigger[aria-expanded=true]:after {
+  border-top-color: #fff;
+}
+.accordion-component .accordion__trigger[aria-expanded=true] {
+  border-bottom: none;
+}
+.accordion-component .accordion__trigger[aria-expanded=true]:after {
+  transform: rotate(180deg);
+  top: 22px;
+}
+.accordion-component .accordion__trigger:focus {
+  box-shadow: inset 0 0 0 2px #1e82d1;
+}
+.accordion-component .accordion__trigger[aria-disabled=true]:hover {
+  background-color: #1b75bc;
+  color: #fff;
+  cursor: not-allowed;
+}
+.accordion-component .accordion__trigger[aria-disabled=true]:focus {
+  background-color: #0a2a42;
+}
+.accordion-component .accordion__panel {
+  background-color: inherit;
+  max-height: 0vh;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  visibility: hidden;
+  z-index: 1;
+  /* @include body2(); */
+  color: inherit;
+}
+.accordion-component .accordion__panel--transition {
+  transition: max-height 0.2s ease-in-out, padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
+}
+.accordion-component .accordion__panel > :last-child {
+  margin-bottom: 0;
+}
+.accordion-component .accordion__panel[aria-hidden=false] {
+  max-height: 100vh;
+  overflow: auto;
+  padding: 0;
+  padding-block-end: 48px;
+  visibility: visible;
+  /* border-bottom: 1px solid $color-gray3; */
+}
+.accordion-component .accordion__trigger[aria-expanded=true] {
+  /* background: $color-white; */
+  color: inherit;
+}
+
+/*# sourceMappingURL=accordion.css.map */

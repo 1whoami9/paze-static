@@ -1,0 +1,571 @@
+/*consumer-light text*/
+.paragraph.consumer-light {color: #151b33;}
+.paragraph.consumer-light .title, .paragraph.consumer-light .paragraph-title {color: #0f42f8;}
+.paragraph.consumer-light .subtitle, .paragraph.consumer-light .paragraph-subtitle {color: #000000;}
+.paragraph.consumer-light.option-field-paragraph-subtitle-style-bold-accent .subtitle, .paragraph.consumer-light.option-field-paragraph-subtitle-style-bold-accent .paragraph-subtitle {color: #000000;}
+.paragraph.consumer-light.option-field-paragraph-subtitle-style-bold-accent2 .subtitle, .paragraph.consumer-light.option-field-paragraph-subtitle-style-bold-accent2 .paragraph-subtitle {color: #000000;}
+.paragraph.consumer-light .body, .paragraph.consumer-light .paragraph-body {color: #151b33;}
+.paragraph.consumer-light .body a, .paragraph.consumer-light .paragraph-body a, .paragraph.consumer-light .help a, .paragraph.consumer-light form a, .paragraph.consumer-light .tab-pane a:not(.nav-link), .paragraph.consumer-light ul.menu a, .paragraph.consumer-light .item-rows a, .paragraph.consumer-light .item-rows .subtitle a {color: #000000;}
+.paragraph.consumer-light ul.menu li.menu__item:after {color: #000000;}
+.paragraph.consumer-light ul.menu.breadcrumbs li a {color: #151b33;}
+.paragraph.consumer-light ul.menu.breadcrumbs li:last-child a {color: #000000;}
+.paragraph.consumer-light ul.menu.breadcrumbs li:after {color: #151b33;}
+.paragraph.consumer-light .column.columns .card .subtitle a {color: #151b33;}
+
+/*consumer-light cards*/
+.paragraph.consumer-light .view-mode--horizontal_card, .paragraph.consumer-light .view-mode--vertical_card, .paragraph.consumer-light .paragraph--view-mode--vertical-card, .paragraph.consumer-light .paragraph--view-mode--horizontal-card, .paragraph.consumer-light .card, .paragraph.consumer-light .card:not(.paragraph--type--carousel-slide), .paragraph.consumer-light .paragraph--view-mode--cta-title-card {background-color: #f4f7ff; border-color: #000000;}
+.paragraph.consumer-light .vertical-card .title a:hover {color: #000000}
+.paragraph.consumer-light .view-mode--vertical_card .title h2 a, .paragraph.consumer-light .view-mode--vertical_card .title .formatted-title a {color: #000000;}
+.paragraph.consumer-light.option-field-paragraph-form-style-card form.contact-form {background-color: #f4f7ff; border: 1px solid #000000;}
+.paragraph.consumer-light .paragraph--view-mode--cta-title-card:hover {background-color: #000000; border-color: #000000; color: #ffffff;}
+.paragraph.consumer-light .paragraph--view-mode--cta-title-card:hover .paragraph-title a {color: #ffffff;}
+.paragraph.consumer-light .view-mode--horizontal_card.selected, .paragraph.consumer-light .view-mode--vertical_card.selected, .paragraph.consumer-light .paragraph--view-mode--vertical-card.selected, .paragraph.consumer-light .paragraph--view-mode--horizontal-card.selected, .paragraph.consumer-light .card.selected, .paragraph.consumer-light .card:not(.paragraph--type--carousel-slide).selected {background-color: #000000; border-color: #000000; color:#ffffff;}
+.paragraph.consumer-light .view-mode--horizontal_card[data-click-target]:hover, .paragraph.consumer-light .view-mode--vertical_card[data-click-target]:hover, .paragraph.consumer-light .paragraph--view-mode--vertical-card[data-click-target]:hover, .paragraph.consumer-light .paragraph--view-mode--horizontal-card[data-click-target]:hover, .paragraph.consumer-light .card[data-click-target]:hover, .paragraph.consumer-light .card[data-click-target]:not(.paragraph--type--carousel-slide):hover{background-color: #000000; border-color: #000000; color:#ffffff;}
+.paragraph.consumer-light .paragraph--view-mode--vertical-card.selected .title, .paragraph.consumer-light .paragraph--view-mode--vertical-card.selected .paragraph-title {color: #ffffff;}
+.paragraph.consumer-light .view-mode--horizontal_card[data-click-target]:hover .paragraph-title, .paragraph.consumer-light .view-mode--vertical_card[data-click-target]:hover .paragraph-title, .paragraph.consumer-light .paragraph--view-mode--vertical-card[data-click-target]:hover .paragraph-title, .paragraph.consumer-light .paragraph--view-mode--horizontal-card[data-click-target]:hover .paragraph-title, .paragraph.consumer-light .card[data-click-target]:hover .paragraph-title, .paragraph.consumer-light .card[data-click-target]:not(.paragraph--type--carousel-slide):hover .paragraph-title{color:#ffffff;}
+
+
+/*consumer-light form elements*/
+.paragraph.consumer-light input.form-text:not([name="search-filter"]), .paragraph.consumer-light input.form-email, .paragraph.consumer-light input.form-tel, .paragraph.consumer-light input.form-password, .paragraph.consumer-light textarea.form-textarea, .paragraph.consumer-light select.form-select, .paragraph.consumer-light .terms-and-conditions-wrapper {background-color:  #f4f7ff; border-color: #000000;}
+.paragraph.consumer-light .header-bar {background-color: #000000; color: #ffffff;}
+.paragraph.consumer-light .paragraph-cta a, .paragraph.consumer-light input.button, .paragraph.consumer-light a.btn:not(.modal-button), .paragraph.consumer-light a.button, .paragraph.paragraph.consumer-light a.cta_link {color: #151b33; background-color: #84e2f7;}
+.paragraph.consumer-light .paragraph-cta a:hover, .paragraph.consumer-light input.button:hover, .paragraph.consumer-light a.btn:not(.modal-button):hover, .paragraph.consumer-light a.button:hover, .paragraph.paragraph.consumer-light a.cta_link:hover {color: #84e2f7; background-color: #151b33;}
+
+/*consumer-light carousel*/
+.paragraph.consumer-light.paragraph--type--carousel a, .paragraph.consumer-light.paragraph--type--carousel .paragraph--type--carousel-slide .paragraph-subtitle a{color: #000000;}
+.paragraph.consumer-light.paragraph--type--carousel .paragraph-cta a {color: #151b33;}
+.paragraph.consumer-light.paragraph--type--carousel .paragraph-cta a:hover {color: #84e2f7;}
+.paragraph.consumer-light nav.slick__arrow button.slick-arrow:before {color: #151b33; }
+.paragraph.consumer-light .slick-dots button {background: #000000;}
+.paragraph.consumer-light.paragraph--type--carousel .card {background-color: #ffffff;}
+
+/*consumer-light tabs*/
+.paragraph.consumer-light ul.nav-tabs li.nav-item a.nav-link.active {border-top: 5px solid #000000;}
+.paragraph.consumer-light ul.nav-tabs .nav-link.active, .paragraph.consumer-light .nav-tabs .nav-item.show .nav-link {background-color: #ffffff;}
+.paragraph.consumer-light ul.nav-tabs li.nav-item a.nav-link {color: #000000;}
+.paragraph.consumer-light ul.nav-pills li.nav-item a.nav-link, .paragraph.consumer-light .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link, .paragraph.consumer-light .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link {color: #000000; background-color: #f4f7ff; border: solid 1px #000000;}
+.paragraph.consumer-light ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.consumer-light .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.consumer-light .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link:hover, .paragraph.consumer-light ul.nav-pills li.nav-item a.nav-link.active, .paragraph.consumer-light .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link.active, .paragraph.consumer-light .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link.active {color: #151b33; background-color: #000000; border: solid 1px #000000;}
+
+/*consumer-light lists and views*/
+.paragraph.consumer-light .item-rows {border-top: solid 1px #000000;}
+.paragraph.consumer-light .item-rows .views-row {border-bottom: solid 1px #000000;}
+
+/*consumer-light graphic elements*/
+@media screen and (min-width: 767px) {
+    .paragraph.consumer-light.option-field-paragraph-tile-divider-vertical .tiles .col-md-6 {border-right: 2px solid #000000;}
+    .paragraph.consumer-light.option-field-paragraph-tile-divider-vertical .tiles .col-md-6:last-child {border-right: none;}
+}
+.paragraph.consumer-light.option-field-paragraph-wrapper-style-downarrow::after {border-top: solid 2rem #ffffff;}
+.paragraph.consumer-light.option-field-paragraph-title-style-bold-accent .paragraph-title:after {background: #000000;}
+.paragraph.consumer-light.option-field-paragraph-title-style-thin-accent .paragraph-title:after {background: #000000;}
+.paragraph.consumer-light ul.fancy-list li:before {color: #000000;}
+.paragraph.consumer-light  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:after {background: #000000;}
+.paragraph.consumer-light  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:before {background: #ffffff;}
+
+/*consumer-light lottie animations */
+.paragraph.consumer-light #consumer-banks-paragraph .paragraph-title {top: 0px;}
+.paragraph.consumer-light #consumer-security-paragraph .paragraph-body {bottom: 65px;}
+@media screen and (max-width: 880px) {
+    .paragraph.consumer-light #consumer-banks-paragraph .paragraph-title {top: 20px;}
+}
+@media screen and (max-width: 850px) {
+    .paragraph.consumer-light #consumer-security-paragraph .paragraph-body {bottom: 100px;}
+}
+@media screen and (max-width: 630px) {
+    .paragraph.consumer-light #consumer-banks-paragraph .paragraph-title {top: 0;}
+    .paragraph.consumer-light #consumer-security-paragraph .paragraph-body {bottom: 55px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.consumer-light #consumer-banks-paragraph .paragraph-title {top: 206px;}
+    .paragraph.consumer-light #consumer-security-paragraph .paragraph-body {bottom: 300px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.consumer-light #consumer-banks-paragraph .paragraph-title {top: 52px;}
+    .paragraph.consumer-light #consumer-security-paragraph .paragraph-body {bottom: 152px;}
+}
+.paragraph.consumer-light #biz-cards-paragraph .paragraph-icon {top: 117px;}
+.paragraph.consumer-light #biz-cards-paragraph .paragraph-title {top: 189px;}
+.paragraph.consumer-light #biz-cards-paragraph .paragraph-body {top: 299px;}
+.paragraph.consumer-light #biz-hero-paragraph .paragraph-body {width: 40%; bottom: 130px; left: 7%;}
+.paragraph.consumer-light #biz-hero-paragraph .paragraph-cta {width: 86%; margin-left: 7%; text-align: left; position: absolute; bottom: 50px;}
+@media screen and (max-width: 890px) {
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-body {width: 76%; bottom: 130px;}
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-cta {bottom: 50px;}
+}
+@media screen and (max-width: 820px) {
+    .paragraph.consumer-light #biz-cards-paragraph .paragraph-body {top: 258px;}
+}
+@media screen and (max-width: 740px) {
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-body {width: 85%; bottom: 102px;}
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-cta {bottom: 30px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-body {bottom: 364px;}
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-cta {bottom: 142px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-body {bottom: 244px;}
+    .paragraph.consumer-light #biz-hero-paragraph .paragraph-cta {bottom: 147px;}
+    paragraph.consumer-light #biz-cards-paragraph .paragraph-icon {top: 67px;}
+    .paragraph.consumer-light #biz-cards-paragraph .paragraph-title {top: 208px;}
+    .paragraph.consumer-light #biz-cards-paragraph .paragraph-body {top: 320px;}
+}
+
+/*consumer-light block */
+.paragraph.consumer-light #block-wanttoofferpazeatcheckout .body {margin-bottom: 1rem}/*business-light text*/
+.paragraph.business-light {color: #000000;}
+.paragraph.business-light .title, .paragraph.business-light .paragraph-title {color: #000000;}
+.paragraph.business-light .subtitle, .paragraph.business-light .paragraph-subtitle {color: #000000;}
+.paragraph.business-light.option-field-paragraph-subtitle-style-bold-accent .subtitle, .paragraph.business-light.option-field-paragraph-subtitle-style-bold-accent .paragraph-subtitle {color: #000000;}
+.paragraph.business-light.option-field-paragraph-subtitle-style-bold-accent2 .subtitle, .paragraph.business-light.option-field-paragraph-subtitle-style-bold-accent2 .paragraph-subtitle {color: #000000;}
+.paragraph.business-light .body, .paragraph.business-light .paragraph-body {color: #000000;}
+.paragraph.business-light .body a, .paragraph.business-light .paragraph-body a, .paragraph.business-light .help a, .paragraph.business-light form a, .paragraph.business-light .tab-pane a:not(.nav-link), .paragraph.business-light ul.menu a, .paragraph.business-light .item-rows a, .paragraph.business-light .item-rows .subtitle a {color: #000000;}
+.paragraph.business-light ul.menu li.menu__item:after {color: #000000;}
+.paragraph.business-light ul.menu.breadcrumbs li a {color: #000000;}
+.paragraph.business-light ul.menu.breadcrumbs li:last-child a {color: #000000;}
+.paragraph.business-light ul.menu.breadcrumbs li:after {color: #000000;}
+.paragraph.business-light .column.columns .card .subtitle a {color: #000000;}
+
+/*business-light cards*/
+.paragraph.business-light .view-mode--horizontal_card, .paragraph.business-light .view-mode--vertical_card, .paragraph.business-light .paragraph--view-mode--vertical-card, .paragraph.business-light .paragraph--view-mode--horizontal-card, .paragraph.business-light .card, .paragraph.business-light .card:not(.paragraph--type--carousel-slide), .paragraph.business-light .paragraph--view-mode--cta-title-card {background-color: #000000; border-color: #000000;}
+.paragraph.business-light .vertical-card .title a:hover {color: #000000}
+.paragraph.business-light .view-mode--vertical_card .title h2 a, .paragraph.business-light .view-mode--vertical_card .title .formatted-title a {color: #000000;}
+.paragraph.business-light.option-field-paragraph-form-style-card form.contact-form {background-color: #000000; border: 1px solid #000000;}
+.paragraph.business-light .paragraph--view-mode--cta-title-card:hover {background-color: #000000; border-color: #000000; color: #ffffff;}
+.paragraph.business-light .paragraph--view-mode--cta-title-card:hover .paragraph-title a {color: #ffffff;}
+.paragraph.business-light .view-mode--horizontal_card.selected, .paragraph.business-light .view-mode--vertical_card.selected, .paragraph.business-light .paragraph--view-mode--vertical-card.selected, .paragraph.business-light .paragraph--view-mode--horizontal-card.selected, .paragraph.business-light .card.selected, .paragraph.business-light .card:not(.paragraph--type--carousel-slide).selected {background-color: #000000; border-color: #000000; color:#ffffff;}
+.paragraph.business-light .view-mode--horizontal_card[data-click-target]:hover, .paragraph.business-light .view-mode--vertical_card[data-click-target]:hover, .paragraph.business-light .paragraph--view-mode--vertical-card[data-click-target]:hover, .paragraph.business-light .paragraph--view-mode--horizontal-card[data-click-target]:hover, .paragraph.business-light .card[data-click-target]:hover, .paragraph.business-light .card[data-click-target]:not(.paragraph--type--carousel-slide):hover{background-color: #000000; border-color: #000000; color:#ffffff;}
+.paragraph.business-light .paragraph--view-mode--vertical-card.selected .title, .paragraph.business-light .paragraph--view-mode--vertical-card.selected .paragraph-title {color: #ffffff;}
+.paragraph.business-light .view-mode--horizontal_card[data-click-target]:hover .paragraph-title, .paragraph.business-light .view-mode--vertical_card[data-click-target]:hover .paragraph-title, .paragraph.business-light .paragraph--view-mode--vertical-card[data-click-target]:hover .paragraph-title, .paragraph.business-light .paragraph--view-mode--horizontal-card[data-click-target]:hover .paragraph-title, .paragraph.business-light .card[data-click-target]:hover .paragraph-title, .paragraph.business-light .card[data-click-target]:not(.paragraph--type--carousel-slide):hover .paragraph-title{color:#ffffff;}
+
+
+/*business-light form elements*/
+.paragraph.business-light input.form-text:not([name="search-filter"]), .paragraph.business-light input.form-email, .paragraph.business-light input.form-tel, .paragraph.business-light input.form-password, .paragraph.business-light textarea.form-textarea, .paragraph.business-light select.form-select, .paragraph.business-light .terms-and-conditions-wrapper {background-color:  #000000; border-color: #000000;}
+.paragraph.business-light .header-bar {background-color: #000000; color: #ffffff;}
+.paragraph.business-light .paragraph-cta a, .paragraph.business-light input.button, .paragraph.business-light a.btn:not(.modal-button), .paragraph.business-light a.button, .paragraph.paragraph.business-light a.cta_link {color: #000000; background-color: #000000;}
+.paragraph.business-light .paragraph-cta a:hover, .paragraph.business-light input.button:hover, .paragraph.business-light a.btn:not(.modal-button):hover, .paragraph.business-light a.button:hover, .paragraph.paragraph.business-light a.cta_link:hover {color: #000000; background-color: #000000;}
+
+/*business-light carousel*/
+.paragraph.business-light.paragraph--type--carousel a, .paragraph.business-light.paragraph--type--carousel .paragraph--type--carousel-slide .paragraph-subtitle a{color: #000000;}
+.paragraph.business-light.paragraph--type--carousel .paragraph-cta a {color: #000000;}
+.paragraph.business-light.paragraph--type--carousel .paragraph-cta a:hover {color: #000000;}
+.paragraph.business-light nav.slick__arrow button.slick-arrow:before {color: #000000; }
+.paragraph.business-light .slick-dots button {background: #000000;}
+.paragraph.business-light.paragraph--type--carousel .card {background-color: #ffffff;}
+
+/*business-light tabs*/
+.paragraph.business-light ul.nav-tabs li.nav-item a.nav-link.active {border-top: 5px solid #000000;}
+.paragraph.business-light ul.nav-tabs .nav-link.active, .paragraph.business-light .nav-tabs .nav-item.show .nav-link {background-color: #ffffff;}
+.paragraph.business-light ul.nav-tabs li.nav-item a.nav-link {color: #000000;}
+.paragraph.business-light ul.nav-pills li.nav-item a.nav-link, .paragraph.business-light .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link, .paragraph.business-light .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link {color: #000000; background-color: #000000; border: solid 1px #000000;}
+.paragraph.business-light ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.business-light .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.business-light .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link:hover, .paragraph.business-light ul.nav-pills li.nav-item a.nav-link.active, .paragraph.business-light .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link.active, .paragraph.business-light .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link.active {color: #000000; background-color: #000000; border: solid 1px #000000;}
+
+/*business-light lists and views*/
+.paragraph.business-light .item-rows {border-top: solid 1px #000000;}
+.paragraph.business-light .item-rows .views-row {border-bottom: solid 1px #000000;}
+
+/*business-light graphic elements*/
+@media screen and (min-width: 767px) {
+    .paragraph.business-light.option-field-paragraph-tile-divider-vertical .tiles .col-md-6 {border-right: 2px solid #000000;}
+    .paragraph.business-light.option-field-paragraph-tile-divider-vertical .tiles .col-md-6:last-child {border-right: none;}
+}
+.paragraph.business-light.option-field-paragraph-wrapper-style-downarrow::after {border-top: solid 2rem #ffffff;}
+.paragraph.business-light.option-field-paragraph-title-style-bold-accent .paragraph-title:after {background: #000000;}
+.paragraph.business-light.option-field-paragraph-title-style-thin-accent .paragraph-title:after {background: #000000;}
+.paragraph.business-light ul.fancy-list li:before {color: #000000;}
+.paragraph.business-light  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:after {background: #000000;}
+.paragraph.business-light  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:before {background: #ffffff;}
+
+/*business-light lottie animations */
+.paragraph.business-light #consumer-banks-paragraph .paragraph-title {top: 100px;}
+.paragraph.business-light #consumer-security-paragraph .paragraph-body {bottom: 166px;}
+@media screen and (max-width: 880px) {
+    .paragraph.business-light #consumer-banks-paragraph .paragraph-title {top: 20px;}
+}
+@media screen and (max-width: 850px) {
+    .paragraph.business-light #consumer-security-paragraph .paragraph-body {bottom: 100px;}
+}
+@media screen and (max-width: 630px) {
+    .paragraph.business-light #consumer-banks-paragraph .paragraph-title {top: 0;}
+    .paragraph.business-light #consumer-security-paragraph .paragraph-body {bottom: 55px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.business-light #consumer-banks-paragraph .paragraph-title {top: 206px;}
+    .paragraph.business-light #consumer-security-paragraph .paragraph-body {bottom: 300px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.business-light #consumer-banks-paragraph .paragraph-title {top: 52px;}
+    .paragraph.business-light #consumer-security-paragraph .paragraph-body {bottom: 152px;}
+}
+.paragraph.business-light #biz-cards-paragraph .paragraph-icon {top: 117px;}
+.paragraph.business-light #biz-cards-paragraph .paragraph-title {top: 189px;}
+.paragraph.business-light #biz-cards-paragraph .paragraph-body {top: 299px;}
+.paragraph.business-light #biz-hero-paragraph .paragraph-body {width: 40%; bottom: 130px; left: 7%;}
+.paragraph.business-light #biz-hero-paragraph .paragraph-cta {width: 86%; margin-left: 7%; text-align: left; position: absolute; bottom: 50px;}
+@media screen and (max-width: 890px) {
+    .paragraph.business-light #biz-hero-paragraph .paragraph-body {width: 76%; bottom: 130px;}
+    .paragraph.business-light #biz-hero-paragraph .paragraph-cta {bottom: 50px;}
+}
+@media screen and (max-width: 820px) {
+    .paragraph.business-light #biz-cards-paragraph .paragraph-body {top: 258px;}
+}
+@media screen and (max-width: 740px) {
+    .paragraph.business-light #biz-hero-paragraph .paragraph-body {width: 85%; bottom: 102px;}
+    .paragraph.business-light #biz-hero-paragraph .paragraph-cta {bottom: 30px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.business-light #biz-hero-paragraph .paragraph-body {bottom: 364px;}
+    .paragraph.business-light #biz-hero-paragraph .paragraph-cta {bottom: 142px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.business-light #biz-hero-paragraph .paragraph-body {bottom: 244px;}
+    .paragraph.business-light #biz-hero-paragraph .paragraph-cta {bottom: 147px;}
+    paragraph.business-light #biz-cards-paragraph .paragraph-icon {top: 67px;}
+    .paragraph.business-light #biz-cards-paragraph .paragraph-title {top: 208px;}
+    .paragraph.business-light #biz-cards-paragraph .paragraph-body {top: 320px;}
+}
+
+/*business-light block */
+.paragraph.business-light #block-wanttoofferpazeatcheckout .body {margin-bottom: 1rem}/*consumer-dark text*/
+.paragraph.consumer-dark {color: #ffffff;}
+.paragraph.consumer-dark .title, .paragraph.consumer-dark .paragraph-title {color: #ffffff;}
+.paragraph.consumer-dark .subtitle, .paragraph.consumer-dark .paragraph-subtitle {color: #000000;}
+.paragraph.consumer-dark.option-field-paragraph-subtitle-style-bold-accent .subtitle, .paragraph.consumer-dark.option-field-paragraph-subtitle-style-bold-accent .paragraph-subtitle {color: #000000;}
+.paragraph.consumer-dark.option-field-paragraph-subtitle-style-bold-accent2 .subtitle, .paragraph.consumer-dark.option-field-paragraph-subtitle-style-bold-accent2 .paragraph-subtitle {color: #000000;}
+.paragraph.consumer-dark .body, .paragraph.consumer-dark .paragraph-body {color: #ffffff;}
+.paragraph.consumer-dark .body a, .paragraph.consumer-dark .paragraph-body a, .paragraph.consumer-dark .help a, .paragraph.consumer-dark form a, .paragraph.consumer-dark .tab-pane a:not(.nav-link), .paragraph.consumer-dark ul.menu a, .paragraph.consumer-dark .item-rows a, .paragraph.consumer-dark .item-rows .subtitle a {color: #000000;}
+.paragraph.consumer-dark ul.menu li.menu__item:after {color: #000000;}
+.paragraph.consumer-dark ul.menu.breadcrumbs li a {color: #ffffff;}
+.paragraph.consumer-dark ul.menu.breadcrumbs li:last-child a {color: #000000;}
+.paragraph.consumer-dark ul.menu.breadcrumbs li:after {color: #ffffff;}
+.paragraph.consumer-dark .column.columns .card .subtitle a {color: #ffffff;}
+
+/*consumer-dark cards*/
+.paragraph.consumer-dark .view-mode--horizontal_card, .paragraph.consumer-dark .view-mode--vertical_card, .paragraph.consumer-dark .paragraph--view-mode--vertical-card, .paragraph.consumer-dark .paragraph--view-mode--horizontal-card, .paragraph.consumer-dark .card, .paragraph.consumer-dark .card:not(.paragraph--type--carousel-slide), .paragraph.consumer-dark .paragraph--view-mode--cta-title-card {background-color: #000000; border-color: #000000;}
+.paragraph.consumer-dark .vertical-card .title a:hover {color: #000000}
+.paragraph.consumer-dark .view-mode--vertical_card .title h2 a, .paragraph.consumer-dark .view-mode--vertical_card .title .formatted-title a {color: #000000;}
+.paragraph.consumer-dark.option-field-paragraph-form-style-card form.contact-form {background-color: #000000; border: 1px solid #000000;}
+.paragraph.consumer-dark .paragraph--view-mode--cta-title-card:hover {background-color: #000000; border-color: #000000; color: #0f42f8;}
+.paragraph.consumer-dark .paragraph--view-mode--cta-title-card:hover .paragraph-title a {color: #0f42f8;}
+.paragraph.consumer-dark .view-mode--horizontal_card.selected, .paragraph.consumer-dark .view-mode--vertical_card.selected, .paragraph.consumer-dark .paragraph--view-mode--vertical-card.selected, .paragraph.consumer-dark .paragraph--view-mode--horizontal-card.selected, .paragraph.consumer-dark .card.selected, .paragraph.consumer-dark .card:not(.paragraph--type--carousel-slide).selected {background-color: #000000; border-color: #000000; color:#0f42f8;}
+.paragraph.consumer-dark .view-mode--horizontal_card[data-click-target]:hover, .paragraph.consumer-dark .view-mode--vertical_card[data-click-target]:hover, .paragraph.consumer-dark .paragraph--view-mode--vertical-card[data-click-target]:hover, .paragraph.consumer-dark .paragraph--view-mode--horizontal-card[data-click-target]:hover, .paragraph.consumer-dark .card[data-click-target]:hover, .paragraph.consumer-dark .card[data-click-target]:not(.paragraph--type--carousel-slide):hover{background-color: #000000; border-color: #000000; color:#0f42f8;}
+.paragraph.consumer-dark .paragraph--view-mode--vertical-card.selected .title, .paragraph.consumer-dark .paragraph--view-mode--vertical-card.selected .paragraph-title {color: #0f42f8;}
+.paragraph.consumer-dark .view-mode--horizontal_card[data-click-target]:hover .paragraph-title, .paragraph.consumer-dark .view-mode--vertical_card[data-click-target]:hover .paragraph-title, .paragraph.consumer-dark .paragraph--view-mode--vertical-card[data-click-target]:hover .paragraph-title, .paragraph.consumer-dark .paragraph--view-mode--horizontal-card[data-click-target]:hover .paragraph-title, .paragraph.consumer-dark .card[data-click-target]:hover .paragraph-title, .paragraph.consumer-dark .card[data-click-target]:not(.paragraph--type--carousel-slide):hover .paragraph-title{color:#0f42f8;}
+
+
+/*consumer-dark form elements*/
+.paragraph.consumer-dark input.form-text:not([name="search-filter"]), .paragraph.consumer-dark input.form-email, .paragraph.consumer-dark input.form-tel, .paragraph.consumer-dark input.form-password, .paragraph.consumer-dark textarea.form-textarea, .paragraph.consumer-dark select.form-select, .paragraph.consumer-dark .terms-and-conditions-wrapper {background-color:  #000000; border-color: #000000;}
+.paragraph.consumer-dark .header-bar {background-color: #000000; color: #0f42f8;}
+.paragraph.consumer-dark .paragraph-cta a, .paragraph.consumer-dark input.button, .paragraph.consumer-dark a.btn:not(.modal-button), .paragraph.consumer-dark a.button, .paragraph.paragraph.consumer-dark a.cta_link {color: #000000; background-color: #000000;}
+.paragraph.consumer-dark .paragraph-cta a:hover, .paragraph.consumer-dark input.button:hover, .paragraph.consumer-dark a.btn:not(.modal-button):hover, .paragraph.consumer-dark a.button:hover, .paragraph.paragraph.consumer-dark a.cta_link:hover {color: #000000; background-color: #000000;}
+
+/*consumer-dark carousel*/
+.paragraph.consumer-dark.paragraph--type--carousel a, .paragraph.consumer-dark.paragraph--type--carousel .paragraph--type--carousel-slide .paragraph-subtitle a{color: #000000;}
+.paragraph.consumer-dark.paragraph--type--carousel .paragraph-cta a {color: #000000;}
+.paragraph.consumer-dark.paragraph--type--carousel .paragraph-cta a:hover {color: #000000;}
+.paragraph.consumer-dark nav.slick__arrow button.slick-arrow:before {color: #000000; }
+.paragraph.consumer-dark .slick-dots button {background: #000000;}
+.paragraph.consumer-dark.paragraph--type--carousel .card {background-color: #0f42f8;}
+
+/*consumer-dark tabs*/
+.paragraph.consumer-dark ul.nav-tabs li.nav-item a.nav-link.active {border-top: 5px solid #000000;}
+.paragraph.consumer-dark ul.nav-tabs .nav-link.active, .paragraph.consumer-dark .nav-tabs .nav-item.show .nav-link {background-color: #0f42f8;}
+.paragraph.consumer-dark ul.nav-tabs li.nav-item a.nav-link {color: #000000;}
+.paragraph.consumer-dark ul.nav-pills li.nav-item a.nav-link, .paragraph.consumer-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link, .paragraph.consumer-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link {color: #000000; background-color: #000000; border: solid 1px #000000;}
+.paragraph.consumer-dark ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.consumer-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.consumer-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link:hover, .paragraph.consumer-dark ul.nav-pills li.nav-item a.nav-link.active, .paragraph.consumer-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link.active, .paragraph.consumer-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link.active {color: #000000; background-color: #000000; border: solid 1px #000000;}
+
+/*consumer-dark lists and views*/
+.paragraph.consumer-dark .item-rows {border-top: solid 1px #000000;}
+.paragraph.consumer-dark .item-rows .views-row {border-bottom: solid 1px #000000;}
+
+/*consumer-dark graphic elements*/
+@media screen and (min-width: 767px) {
+    .paragraph.consumer-dark.option-field-paragraph-tile-divider-vertical .tiles .col-md-6 {border-right: 2px solid #000000;}
+    .paragraph.consumer-dark.option-field-paragraph-tile-divider-vertical .tiles .col-md-6:last-child {border-right: none;}
+}
+.paragraph.consumer-dark.option-field-paragraph-wrapper-style-downarrow::after {border-top: solid 2rem #0f42f8;}
+.paragraph.consumer-dark.option-field-paragraph-title-style-bold-accent .paragraph-title:after {background: #000000;}
+.paragraph.consumer-dark.option-field-paragraph-title-style-thin-accent .paragraph-title:after {background: #000000;}
+.paragraph.consumer-dark ul.fancy-list li:before {color: #000000;}
+.paragraph.consumer-dark  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:after {background: #000000;}
+.paragraph.consumer-dark  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:before {background: #0f42f8;}
+
+/*consumer-dark lottie animations */
+.paragraph.consumer-dark #consumer-banks-paragraph .paragraph-title {top: 100px;}
+.paragraph.consumer-dark #consumer-security-paragraph .paragraph-body {bottom: 166px;}
+@media screen and (max-width: 880px) {
+    .paragraph.consumer-dark #consumer-banks-paragraph .paragraph-title {top: 20px;}
+}
+@media screen and (max-width: 850px) {
+    .paragraph.consumer-dark #consumer-security-paragraph .paragraph-body {bottom: 100px;}
+}
+@media screen and (max-width: 630px) {
+    .paragraph.consumer-dark #consumer-banks-paragraph .paragraph-title {top: 0;}
+    .paragraph.consumer-dark #consumer-security-paragraph .paragraph-body {bottom: 55px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.consumer-dark #consumer-banks-paragraph .paragraph-title {top: 206px;}
+    .paragraph.consumer-dark #consumer-security-paragraph .paragraph-body {bottom: 300px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.consumer-dark #consumer-banks-paragraph .paragraph-title {top: 52px;}
+    .paragraph.consumer-dark #consumer-security-paragraph .paragraph-body {bottom: 152px;}
+}
+.paragraph.consumer-dark #biz-cards-paragraph .paragraph-icon {top: 117px;}
+.paragraph.consumer-dark #biz-cards-paragraph .paragraph-title {top: 189px;}
+.paragraph.consumer-dark #biz-cards-paragraph .paragraph-body {top: 299px;}
+.paragraph.consumer-dark #biz-hero-paragraph .paragraph-body {width: 40%; bottom: 130px; left: 7%;}
+.paragraph.consumer-dark #biz-hero-paragraph .paragraph-cta {width: 86%; margin-left: 7%; text-align: left; position: absolute; bottom: 50px;}
+@media screen and (max-width: 890px) {
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-body {width: 76%; bottom: 130px;}
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-cta {bottom: 50px;}
+}
+@media screen and (max-width: 820px) {
+    .paragraph.consumer-dark #biz-cards-paragraph .paragraph-body {top: 258px;}
+}
+@media screen and (max-width: 740px) {
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-body {width: 85%; bottom: 102px;}
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-cta {bottom: 30px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-body {bottom: 364px;}
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-cta {bottom: 142px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-body {bottom: 244px;}
+    .paragraph.consumer-dark #biz-hero-paragraph .paragraph-cta {bottom: 147px;}
+    paragraph.consumer-dark #biz-cards-paragraph .paragraph-icon {top: 67px;}
+    .paragraph.consumer-dark #biz-cards-paragraph .paragraph-title {top: 208px;}
+    .paragraph.consumer-dark #biz-cards-paragraph .paragraph-body {top: 320px;}
+}
+
+/*consumer-dark block */
+.paragraph.consumer-dark #block-wanttoofferpazeatcheckout .body {margin-bottom: 1rem}/*business-dark text*/
+.paragraph.business-dark {color: #ffffff;}
+.paragraph.business-dark .title, .paragraph.business-dark .paragraph-title {color: #000000;}
+.paragraph.business-dark .subtitle, .paragraph.business-dark .paragraph-subtitle {color: #000000;}
+.paragraph.business-dark.option-field-paragraph-subtitle-style-bold-accent .subtitle, .paragraph.business-dark.option-field-paragraph-subtitle-style-bold-accent .paragraph-subtitle {color: #000000;}
+.paragraph.business-dark.option-field-paragraph-subtitle-style-bold-accent2 .subtitle, .paragraph.business-dark.option-field-paragraph-subtitle-style-bold-accent2 .paragraph-subtitle {color: #000000;}
+.paragraph.business-dark .body, .paragraph.business-dark .paragraph-body {color: #ffffff;}
+.paragraph.business-dark .body a, .paragraph.business-dark .paragraph-body a, .paragraph.business-dark .help a, .paragraph.business-dark form a, .paragraph.business-dark .tab-pane a:not(.nav-link), .paragraph.business-dark ul.menu a, .paragraph.business-dark .item-rows a, .paragraph.business-dark .item-rows .subtitle a {color: #000000;}
+.paragraph.business-dark ul.menu li.menu__item:after {color: #000000;}
+.paragraph.business-dark ul.menu.breadcrumbs li a {color: #ffffff;}
+.paragraph.business-dark ul.menu.breadcrumbs li:last-child a {color: #000000;}
+.paragraph.business-dark ul.menu.breadcrumbs li:after {color: #ffffff;}
+.paragraph.business-dark .column.columns .card .subtitle a {color: #ffffff;}
+
+/*business-dark cards*/
+.paragraph.business-dark .view-mode--horizontal_card, .paragraph.business-dark .view-mode--vertical_card, .paragraph.business-dark .paragraph--view-mode--vertical-card, .paragraph.business-dark .paragraph--view-mode--horizontal-card, .paragraph.business-dark .card, .paragraph.business-dark .card:not(.paragraph--type--carousel-slide), .paragraph.business-dark .paragraph--view-mode--cta-title-card {background-color: #000000; border-color: #000000;}
+.paragraph.business-dark .vertical-card .title a:hover {color: #000000}
+.paragraph.business-dark .view-mode--vertical_card .title h2 a, .paragraph.business-dark .view-mode--vertical_card .title .formatted-title a {color: #000000;}
+.paragraph.business-dark.option-field-paragraph-form-style-card form.contact-form {background-color: #000000; border: 1px solid #000000;}
+.paragraph.business-dark .paragraph--view-mode--cta-title-card:hover {background-color: #000000; border-color: #000000; color: #3f496d;}
+.paragraph.business-dark .paragraph--view-mode--cta-title-card:hover .paragraph-title a {color: #3f496d;}
+.paragraph.business-dark .view-mode--horizontal_card.selected, .paragraph.business-dark .view-mode--vertical_card.selected, .paragraph.business-dark .paragraph--view-mode--vertical-card.selected, .paragraph.business-dark .paragraph--view-mode--horizontal-card.selected, .paragraph.business-dark .card.selected, .paragraph.business-dark .card:not(.paragraph--type--carousel-slide).selected {background-color: #000000; border-color: #000000; color:#3f496d;}
+.paragraph.business-dark .view-mode--horizontal_card[data-click-target]:hover, .paragraph.business-dark .view-mode--vertical_card[data-click-target]:hover, .paragraph.business-dark .paragraph--view-mode--vertical-card[data-click-target]:hover, .paragraph.business-dark .paragraph--view-mode--horizontal-card[data-click-target]:hover, .paragraph.business-dark .card[data-click-target]:hover, .paragraph.business-dark .card[data-click-target]:not(.paragraph--type--carousel-slide):hover{background-color: #000000; border-color: #000000; color:#3f496d;}
+.paragraph.business-dark .paragraph--view-mode--vertical-card.selected .title, .paragraph.business-dark .paragraph--view-mode--vertical-card.selected .paragraph-title {color: #3f496d;}
+.paragraph.business-dark .view-mode--horizontal_card[data-click-target]:hover .paragraph-title, .paragraph.business-dark .view-mode--vertical_card[data-click-target]:hover .paragraph-title, .paragraph.business-dark .paragraph--view-mode--vertical-card[data-click-target]:hover .paragraph-title, .paragraph.business-dark .paragraph--view-mode--horizontal-card[data-click-target]:hover .paragraph-title, .paragraph.business-dark .card[data-click-target]:hover .paragraph-title, .paragraph.business-dark .card[data-click-target]:not(.paragraph--type--carousel-slide):hover .paragraph-title{color:#3f496d;}
+
+
+/*business-dark form elements*/
+.paragraph.business-dark input.form-text:not([name="search-filter"]), .paragraph.business-dark input.form-email, .paragraph.business-dark input.form-tel, .paragraph.business-dark input.form-password, .paragraph.business-dark textarea.form-textarea, .paragraph.business-dark select.form-select, .paragraph.business-dark .terms-and-conditions-wrapper {background-color:  #000000; border-color: #000000;}
+.paragraph.business-dark .header-bar {background-color: #000000; color: #3f496d;}
+.paragraph.business-dark .paragraph-cta a, .paragraph.business-dark input.button, .paragraph.business-dark a.btn:not(.modal-button), .paragraph.business-dark a.button, .paragraph.paragraph.business-dark a.cta_link {color: #000000; background-color: #84e2f7;}
+.paragraph.business-dark .paragraph-cta a:hover, .paragraph.business-dark input.button:hover, .paragraph.business-dark a.btn:not(.modal-button):hover, .paragraph.business-dark a.button:hover, .paragraph.paragraph.business-dark a.cta_link:hover {color: #84e2f7; background-color: #000000;}
+
+/*business-dark carousel*/
+.paragraph.business-dark.paragraph--type--carousel a, .paragraph.business-dark.paragraph--type--carousel .paragraph--type--carousel-slide .paragraph-subtitle a{color: #000000;}
+.paragraph.business-dark.paragraph--type--carousel .paragraph-cta a {color: #000000;}
+.paragraph.business-dark.paragraph--type--carousel .paragraph-cta a:hover {color: #84e2f7;}
+.paragraph.business-dark nav.slick__arrow button.slick-arrow:before {color: #000000; }
+.paragraph.business-dark .slick-dots button {background: #000000;}
+.paragraph.business-dark.paragraph--type--carousel .card {background-color: #3f496d;}
+
+/*business-dark tabs*/
+.paragraph.business-dark ul.nav-tabs li.nav-item a.nav-link.active {border-top: 5px solid #000000;}
+.paragraph.business-dark ul.nav-tabs .nav-link.active, .paragraph.business-dark .nav-tabs .nav-item.show .nav-link {background-color: #3f496d;}
+.paragraph.business-dark ul.nav-tabs li.nav-item a.nav-link {color: #000000;}
+.paragraph.business-dark ul.nav-pills li.nav-item a.nav-link, .paragraph.business-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link, .paragraph.business-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link {color: #000000; background-color: #000000; border: solid 1px #000000;}
+.paragraph.business-dark ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.business-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.business-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link:hover, .paragraph.business-dark ul.nav-pills li.nav-item a.nav-link.active, .paragraph.business-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link.active, .paragraph.business-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link.active {color: #000000; background-color: #000000; border: solid 1px #000000;}
+
+/*business-dark lists and views*/
+.paragraph.business-dark .item-rows {border-top: solid 1px #000000;}
+.paragraph.business-dark .item-rows .views-row {border-bottom: solid 1px #000000;}
+
+/*business-dark graphic elements*/
+@media screen and (min-width: 767px) {
+    .paragraph.business-dark.option-field-paragraph-tile-divider-vertical .tiles .col-md-6 {border-right: 2px solid #000000;}
+    .paragraph.business-dark.option-field-paragraph-tile-divider-vertical .tiles .col-md-6:last-child {border-right: none;}
+}
+.paragraph.business-dark.option-field-paragraph-wrapper-style-downarrow::after {border-top: solid 2rem #3f496d;}
+.paragraph.business-dark.option-field-paragraph-title-style-bold-accent .paragraph-title:after {background: #000000;}
+.paragraph.business-dark.option-field-paragraph-title-style-thin-accent .paragraph-title:after {background: #000000;}
+.paragraph.business-dark ul.fancy-list li:before {color: #000000;}
+.paragraph.business-dark  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:after {background: #000000;}
+.paragraph.business-dark  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:before {background: #3f496d;}
+
+/*business-dark lottie animations */
+.paragraph.business-dark #consumer-banks-paragraph .paragraph-title {top: 100px;}
+.paragraph.business-dark #consumer-security-paragraph .paragraph-body {bottom: 166px;}
+@media screen and (max-width: 880px) {
+    .paragraph.business-dark #consumer-banks-paragraph .paragraph-title {top: 20px;}
+}
+@media screen and (max-width: 850px) {
+    .paragraph.business-dark #consumer-security-paragraph .paragraph-body {bottom: 100px;}
+}
+@media screen and (max-width: 630px) {
+    .paragraph.business-dark #consumer-banks-paragraph .paragraph-title {top: 0;}
+    .paragraph.business-dark #consumer-security-paragraph .paragraph-body {bottom: 55px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.business-dark #consumer-banks-paragraph .paragraph-title {top: 206px;}
+    .paragraph.business-dark #consumer-security-paragraph .paragraph-body {bottom: 300px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.business-dark #consumer-banks-paragraph .paragraph-title {top: 52px;}
+    .paragraph.business-dark #consumer-security-paragraph .paragraph-body {bottom: 152px;}
+}
+.paragraph.business-dark #biz-cards-paragraph .paragraph-icon {top: 117px;}
+.paragraph.business-dark #biz-cards-paragraph .paragraph-title {top: 189px;}
+.paragraph.business-dark #biz-cards-paragraph .paragraph-body {top: 299px;}
+.paragraph.business-dark #biz-hero-paragraph .paragraph-body {width: 40%; bottom: 130px; left: 7%;}
+.paragraph.business-dark #biz-hero-paragraph .paragraph-cta {width: 86%; margin-left: 7%; text-align: left; position: absolute; bottom: 50px;}
+@media screen and (max-width: 890px) {
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-body {width: 76%; bottom: 130px;}
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-cta {bottom: 50px;}
+}
+@media screen and (max-width: 820px) {
+    .paragraph.business-dark #biz-cards-paragraph .paragraph-body {top: 258px;}
+}
+@media screen and (max-width: 740px) {
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-body {width: 85%; bottom: 102px;}
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-cta {bottom: 30px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-body {bottom: 364px;}
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-cta {bottom: 142px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-body {bottom: 244px;}
+    .paragraph.business-dark #biz-hero-paragraph .paragraph-cta {bottom: 147px;}
+    paragraph.business-dark #biz-cards-paragraph .paragraph-icon {top: 67px;}
+    .paragraph.business-dark #biz-cards-paragraph .paragraph-title {top: 208px;}
+    .paragraph.business-dark #biz-cards-paragraph .paragraph-body {top: 320px;}
+}
+
+/*business-dark block */
+.paragraph.business-dark #block-wanttoofferpazeatcheckout .body {margin-bottom: 1rem}/*tertiary-dark text*/
+.paragraph.tertiary-dark {color: #ffffff;}
+.paragraph.tertiary-dark .title, .paragraph.tertiary-dark .paragraph-title {color: #ffffff;}
+.paragraph.tertiary-dark .subtitle, .paragraph.tertiary-dark .paragraph-subtitle {color: #ffffff;}
+.paragraph.tertiary-dark.option-field-paragraph-subtitle-style-bold-accent .subtitle, .paragraph.tertiary-dark.option-field-paragraph-subtitle-style-bold-accent .paragraph-subtitle {color: #ffffff;}
+.paragraph.tertiary-dark.option-field-paragraph-subtitle-style-bold-accent2 .subtitle, .paragraph.tertiary-dark.option-field-paragraph-subtitle-style-bold-accent2 .paragraph-subtitle {color: #3b4652;}
+.paragraph.tertiary-dark .body, .paragraph.tertiary-dark .paragraph-body {color: #ffffff;}
+.paragraph.tertiary-dark .body a, .paragraph.tertiary-dark .paragraph-body a, .paragraph.tertiary-dark .help a, .paragraph.tertiary-dark form a, .paragraph.tertiary-dark .tab-pane a:not(.nav-link), .paragraph.tertiary-dark ul.menu a, .paragraph.tertiary-dark .item-rows a, .paragraph.tertiary-dark .item-rows .subtitle a {color: #ffffff;}
+.paragraph.tertiary-dark ul.menu li.menu__item:after {color: #ffffff;}
+.paragraph.tertiary-dark ul.menu.breadcrumbs li a {color: #ffffff;}
+.paragraph.tertiary-dark ul.menu.breadcrumbs li:last-child a {color: #3b4652;}
+.paragraph.tertiary-dark ul.menu.breadcrumbs li:after {color: #ffffff;}
+.paragraph.tertiary-dark .column.columns .card .subtitle a {color: #ffffff;}
+
+/*tertiary-dark cards*/
+.paragraph.tertiary-dark .view-mode--horizontal_card, .paragraph.tertiary-dark .view-mode--vertical_card, .paragraph.tertiary-dark .paragraph--view-mode--vertical-card, .paragraph.tertiary-dark .paragraph--view-mode--horizontal-card, .paragraph.tertiary-dark .card, .paragraph.tertiary-dark .card:not(.paragraph--type--carousel-slide), .paragraph.tertiary-dark .paragraph--view-mode--cta-title-card {background-color: #da0c27; border-color: #99999e;}
+.paragraph.tertiary-dark .vertical-card .title a:hover {color: #3b4652}
+.paragraph.tertiary-dark .view-mode--vertical_card .title h2 a, .paragraph.tertiary-dark .view-mode--vertical_card .title .formatted-title a {color: #3b4652;}
+.paragraph.tertiary-dark.option-field-paragraph-form-style-card form.contact-form {background-color: #da0c27; border: 1px solid #99999e;}
+.paragraph.tertiary-dark .paragraph--view-mode--cta-title-card:hover {background-color: #ffffff; border-color: #ffffff; color: #d6001c;}
+.paragraph.tertiary-dark .paragraph--view-mode--cta-title-card:hover .paragraph-title a {color: #d6001c;}
+.paragraph.tertiary-dark .view-mode--horizontal_card.selected, .paragraph.tertiary-dark .view-mode--vertical_card.selected, .paragraph.tertiary-dark .paragraph--view-mode--vertical-card.selected, .paragraph.tertiary-dark .paragraph--view-mode--horizontal-card.selected, .paragraph.tertiary-dark .card.selected, .paragraph.tertiary-dark .card:not(.paragraph--type--carousel-slide).selected {background-color: #5c85bf; border-color: #5c85bf; color:#d6001c;}
+.paragraph.tertiary-dark .view-mode--horizontal_card[data-click-target]:hover, .paragraph.tertiary-dark .view-mode--vertical_card[data-click-target]:hover, .paragraph.tertiary-dark .paragraph--view-mode--vertical-card[data-click-target]:hover, .paragraph.tertiary-dark .paragraph--view-mode--horizontal-card[data-click-target]:hover, .paragraph.tertiary-dark .card[data-click-target]:hover, .paragraph.tertiary-dark .card[data-click-target]:not(.paragraph--type--carousel-slide):hover{background-color: #5c85bf; border-color: #5c85bf; color:#d6001c;}
+.paragraph.tertiary-dark .paragraph--view-mode--vertical-card.selected .title, .paragraph.tertiary-dark .paragraph--view-mode--vertical-card.selected .paragraph-title {color: #d6001c;}
+.paragraph.tertiary-dark .view-mode--horizontal_card[data-click-target]:hover .paragraph-title, .paragraph.tertiary-dark .view-mode--vertical_card[data-click-target]:hover .paragraph-title, .paragraph.tertiary-dark .paragraph--view-mode--vertical-card[data-click-target]:hover .paragraph-title, .paragraph.tertiary-dark .paragraph--view-mode--horizontal-card[data-click-target]:hover .paragraph-title, .paragraph.tertiary-dark .card[data-click-target]:hover .paragraph-title, .paragraph.tertiary-dark .card[data-click-target]:not(.paragraph--type--carousel-slide):hover .paragraph-title{color:#d6001c;}
+
+
+/*tertiary-dark form elements*/
+.paragraph.tertiary-dark input.form-text:not([name="search-filter"]), .paragraph.tertiary-dark input.form-email, .paragraph.tertiary-dark input.form-tel, .paragraph.tertiary-dark input.form-password, .paragraph.tertiary-dark textarea.form-textarea, .paragraph.tertiary-dark select.form-select, .paragraph.tertiary-dark .terms-and-conditions-wrapper {background-color:  #da0c27; border-color: #99999e;}
+.paragraph.tertiary-dark .header-bar {background-color: #ffffff; color: #d6001c;}
+.paragraph.tertiary-dark .paragraph-cta a, .paragraph.tertiary-dark input.button, .paragraph.tertiary-dark a.btn:not(.modal-button), .paragraph.tertiary-dark a.button, .paragraph.paragraph.tertiary-dark a.cta_link {color: #ffffff; background-color: #da0c27;}
+.paragraph.tertiary-dark .paragraph-cta a:hover, .paragraph.tertiary-dark input.button:hover, .paragraph.tertiary-dark a.btn:not(.modal-button):hover, .paragraph.tertiary-dark a.button:hover, .paragraph.paragraph.tertiary-dark a.cta_link:hover {color: #da0c27; background-color: #ffffff;}
+
+/*tertiary-dark carousel*/
+.paragraph.tertiary-dark.paragraph--type--carousel a, .paragraph.tertiary-dark.paragraph--type--carousel .paragraph--type--carousel-slide .paragraph-subtitle a{color: #ffffff;}
+.paragraph.tertiary-dark.paragraph--type--carousel .paragraph-cta a {color: #ffffff;}
+.paragraph.tertiary-dark.paragraph--type--carousel .paragraph-cta a:hover {color: #da0c27;}
+.paragraph.tertiary-dark nav.slick__arrow button.slick-arrow:before {color: #ffffff; }
+.paragraph.tertiary-dark .slick-dots button {background: #ffffff;}
+.paragraph.tertiary-dark.paragraph--type--carousel .card {background-color: #d6001c;}
+
+/*tertiary-dark tabs*/
+.paragraph.tertiary-dark ul.nav-tabs li.nav-item a.nav-link.active {border-top: 5px solid #ffffff;}
+.paragraph.tertiary-dark ul.nav-tabs .nav-link.active, .paragraph.tertiary-dark .nav-tabs .nav-item.show .nav-link {background-color: #d6001c;}
+.paragraph.tertiary-dark ul.nav-tabs li.nav-item a.nav-link {color: #ffffff;}
+.paragraph.tertiary-dark ul.nav-pills li.nav-item a.nav-link, .paragraph.tertiary-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link, .paragraph.tertiary-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link {color: #ffffff; background-color: #da0c27; border: solid 1px #99999e;}
+.paragraph.tertiary-dark ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.tertiary-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link:hover, .paragraph.tertiary-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link:hover, .paragraph.tertiary-dark ul.nav-pills li.nav-item a.nav-link.active, .paragraph.tertiary-dark .tab-pane .tab-pane ul.nav-pills li.nav-item a.nav-link.active, .paragraph.tertiary-dark .option-field-tab-style-pill ul.nav-tabs li.nav-item a.nav-link.active {color: #ffffff; background-color: #ffffff; border: solid 1px #ffffff;}
+
+/*tertiary-dark lists and views*/
+.paragraph.tertiary-dark .item-rows {border-top: solid 1px #99999e;}
+.paragraph.tertiary-dark .item-rows .views-row {border-bottom: solid 1px #99999e;}
+
+/*tertiary-dark graphic elements*/
+@media screen and (min-width: 767px) {
+    .paragraph.tertiary-dark.option-field-paragraph-tile-divider-vertical .tiles .col-md-6 {border-right: 2px solid #99999e;}
+    .paragraph.tertiary-dark.option-field-paragraph-tile-divider-vertical .tiles .col-md-6:last-child {border-right: none;}
+}
+.paragraph.tertiary-dark.option-field-paragraph-wrapper-style-downarrow::after {border-top: solid 2rem #d6001c;}
+.paragraph.tertiary-dark.option-field-paragraph-title-style-bold-accent .paragraph-title:after {background: #ffffff;}
+.paragraph.tertiary-dark.option-field-paragraph-title-style-thin-accent .paragraph-title:after {background: #ffffff;}
+.paragraph.tertiary-dark ul.fancy-list li:before {color: #3b4652;}
+.paragraph.tertiary-dark  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:after {background: #ffffff;}
+.paragraph.tertiary-dark  .paragraph-body .ckeditor-accordion-container &gt; dl dt .ckeditor-accordion-toggle:before {background: #d6001c;}
+
+/*tertiary-dark lottie animations */
+.paragraph.tertiary-dark #consumer-banks-paragraph .paragraph-title {top: 100px;}
+.paragraph.tertiary-dark #consumer-security-paragraph .paragraph-body {bottom: 166px;}
+@media screen and (max-width: 880px) {
+    .paragraph.tertiary-dark #consumer-banks-paragraph .paragraph-title {top: 20px;}
+}
+@media screen and (max-width: 850px) {
+    .paragraph.tertiary-dark #consumer-security-paragraph .paragraph-body {bottom: 100px;}
+}
+@media screen and (max-width: 630px) {
+    .paragraph.tertiary-dark #consumer-banks-paragraph .paragraph-title {top: 0;}
+    .paragraph.tertiary-dark #consumer-security-paragraph .paragraph-body {bottom: 55px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.tertiary-dark #consumer-banks-paragraph .paragraph-title {top: 206px;}
+    .paragraph.tertiary-dark #consumer-security-paragraph .paragraph-body {bottom: 300px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.tertiary-dark #consumer-banks-paragraph .paragraph-title {top: 52px;}
+    .paragraph.tertiary-dark #consumer-security-paragraph .paragraph-body {bottom: 152px;}
+}
+.paragraph.tertiary-dark #biz-cards-paragraph .paragraph-icon {top: 117px;}
+.paragraph.tertiary-dark #biz-cards-paragraph .paragraph-title {top: 189px;}
+.paragraph.tertiary-dark #biz-cards-paragraph .paragraph-body {top: 299px;}
+.paragraph.tertiary-dark #biz-hero-paragraph .paragraph-body {width: 40%; bottom: 130px; left: 7%;}
+.paragraph.tertiary-dark #biz-hero-paragraph .paragraph-cta {width: 86%; margin-left: 7%; text-align: left; position: absolute; bottom: 50px;}
+@media screen and (max-width: 890px) {
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-body {width: 76%; bottom: 130px;}
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-cta {bottom: 50px;}
+}
+@media screen and (max-width: 820px) {
+    .paragraph.tertiary-dark #biz-cards-paragraph .paragraph-body {top: 258px;}
+}
+@media screen and (max-width: 740px) {
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-body {width: 85%; bottom: 102px;}
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-cta {bottom: 30px;}
+}
+@media screen and (max-width: 600px) {
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-body {bottom: 364px;}
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-cta {bottom: 142px;}
+}
+@media screen and (max-width: 420px) {
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-body {bottom: 244px;}
+    .paragraph.tertiary-dark #biz-hero-paragraph .paragraph-cta {bottom: 147px;}
+    paragraph.tertiary-dark #biz-cards-paragraph .paragraph-icon {top: 67px;}
+    .paragraph.tertiary-dark #biz-cards-paragraph .paragraph-title {top: 208px;}
+    .paragraph.tertiary-dark #biz-cards-paragraph .paragraph-body {top: 320px;}
+}
+
+/*tertiary-dark block */
+.paragraph.tertiary-dark #block-wanttoofferpazeatcheckout .body {margin-bottom: 1rem}.paragraph.tertiary-dark ul.fancy-list li:before {color: #ffffff;}

@@ -44,63 +44,6 @@
     // play desktop animations
     if ($(window).width() > 600) {
 
-        // #dt-biz-hero, #dt-biz-cards, #dt-biz-integration, #dt-biz-trust
-        // Business desktop animations
-
-        if (businessPage) {
-            // add hide show for sticky button
-            $(window).on('resize scroll', function() {
-                if ($("#dt-biz-hero").isInViewport() || $("#block-wanttoofferpazeatcheckout").isInViewport()) {
-                    stickyButton.hide();
-                } else {
-                    stickyButton.show();
-                }
-            });
-
-            /*dtBizHero.on("complete", function() {
-              $(".lottie-hero .paragraph-body, .lottie-hero .paragraph-cta").show("fast");
-            });*/
-
-            LottieInteractivity.create(
-                {
-                    player: '#dt-biz-cards',
-                    mode: 'scroll',
-                    actions: [
-                        {
-                            visibility: [0.20, 1.0],
-                            type: 'playOnce',
-                        },
-                    ]
-                }
-            );
-
-            LottieInteractivity.create(
-                {
-                    player: '#dt-biz-integration',
-                    mode: 'scroll',
-                    actions: [
-                        {
-                            visibility: [0.20, 1.0],
-                            type: 'playOnce',
-                        },
-                    ]
-                }
-            );
-
-            LottieInteractivity.create(
-                {
-                    player: '#dt-biz-trust',
-                    mode: 'scroll',
-                    actions: [
-                        {
-                            visibility: [0.20, 1.0],
-                            type: 'playOnce',
-                        },
-                    ]
-                }
-            );
-        }
-
         // Consumer desktop animations
 
         if(consumerPage) {
@@ -112,7 +55,7 @@
                     actions: [
                         {
                             visibility: [0.10, 0.9],
-                            type: "seek",
+                            type: "playOnce",
                             frames: [0, 110]
                         }
                     ]
@@ -121,11 +64,11 @@
             const consumersecurity = document.getElementById('dt-consumer-security');
             consumersecurity.addEventListener('frame', (e) => {
                 if(e.detail.frame > 25) {
-                    $(".arrow").fadeOut();
+                    // $(".arrow").fadeOut();
                     $("#dt-consumer-security").css("visibility", "visible");
                 }
                 else {
-                    $(".arrow").fadeIn();
+                    // $(".arrow").fadeIn();
                     $("#dt-consumer-security").css("visibility", "hidden");
                 }
                 if(e.detail.frame > 80) {
@@ -145,8 +88,8 @@
                     actions: [
                         {
                             visibility: [0.3, 0.6],
-                            type: "seek",
-                            frames: [0, 150],
+                            type: "playOnce",
+                            frames: [0, 209],
                         }
                     ]
                 }
@@ -167,21 +110,40 @@
               
               const scene = new ScrollMagic.Scene({
                 triggerElement: '.scroll-section',
-                duration: 550, // Adjust this value as needed
+                duration: 1100, // Adjust this value as needed
                 triggerHook: 0,
               }).setPin('.scroll-section').addTo(controller);
               
-              
+              const scrollSection = document.querySelector('.scroll-section');
+
+              // calculates animation progress from range of 0 to 1
+              const calcFrame = (start, current, duration) => {
+                if(current - start < 0) {
+                    return 0;
+                } else if ((current - start) > duration) {
+                    return 1;
+                } else {
+                    return ((current - start) / duration);
+                }
+              }
+
+            //   window.addEventListener('scroll', () => {
+            //     document.documentElement.style.setProperty('--scroll', calcFrame(e.startPos, e.scrollPos, 600));
+            //     }, false);
+
               lottieAnimation.addEventListener('DOMLoaded', () => {
-              
                scene.on('update', (e) => {
-                  
+                    // console.log('progress:', calcFrame(e.startPos, e.scrollPos, 600));
+
                   const endFrame = e.startPos + lottieAnimation.getDuration(true);
+                  
                   if(e.scrollPos > e.startPos && e.scrollPos < endFrame ) {
-                    lottieAnimation.goToAndStop(e.scrollPos - e.startPos, true);
+                    lottieAnimation.goToAndStop((e.scrollPos - e.startPos), true);
+                    scrollSection.classList.add('background-transition');
                   }
                   else if(e.scrollPos < e.startPos) {
                     lottieAnimation.goToAndStop(0, true);
+                    scrollSection.classList.remove('background-transition');
                   }
                   else {
                     lottieAnimation.goToAndStop(lottieAnimation.getDuration(true), true);
@@ -226,61 +188,6 @@
 
     if ($(window).width() <= 600) {
 
-        if(businessPage) {
-
-            $(window).on('resize scroll', function() {
-                if ($("#m-biz-hero").isInViewport() || $("#block-wanttoofferpazeatcheckout").isInViewport()) {
-                    stickyButton.hide();
-                } else {
-                    stickyButton.show();
-                }
-            });
-
-            /*mBizHero.on("complete", function() {
-              $(".lottie-hero .paragraph-body, .lottie-hero .paragraph-cta").show("fast");
-            });*/
-
-            LottieInteractivity.create(
-                {
-                    player: '#m-biz-cards',
-                    mode: 'scroll',
-                    actions: [
-                        {
-                            visibility: [0.2, 1.0],
-                            type: 'playOnce',
-                        },
-                    ]
-                }
-            );
-
-            LottieInteractivity.create(
-                {
-                    player: '#m-biz-integration',
-                    mode: 'scroll',
-                    actions: [
-                        {
-                            visibility: [0.2, 1.0],
-                            type: 'playOnce',
-                        },
-                    ]
-                }
-            );
-
-            LottieInteractivity.create(
-                {
-                    player: '#m-biz-trust',
-                    mode: 'scroll',
-                    actions: [
-                        {
-                            visibility: [0.2, 1.0],
-                            type: 'playOnce',
-                        },
-                    ]
-                }
-            );
-
-        }
-
         if(consumerPage) {
 
             LottieInteractivity.create(
@@ -317,21 +224,6 @@
                     ]
                 }
             );
-
-            
-              
-            // LottieInteractivity.create(
-            //     {
-            //         player: '#m-consumer-exp',
-            //         mode: 'scroll',
-            //         actions: [
-            //             {
-            //                 visibility: [0.2, 1.0],
-            //                 type: 'playOnce',
-            //             },
-            //         ]
-            //     }
-            // );
 
         }
 

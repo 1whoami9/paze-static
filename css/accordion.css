@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@media (max-width: 1200px) {
+  .accordion-inner-wrapper {
+    padding-inline: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .accordions-wrapper {
+    margin-top: 200px;
+  }
+}
+
 .accordion-component {
   display: grid;
   grid-template-columns: repeat(2, calc(50% - 44px));

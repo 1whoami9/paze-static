@@ -13,17 +13,17 @@
 }
 
 .consumerexp-container {
-    max-width: 100% !important;
-    max-height: 2000px;
-    overflow: hidden;
-    /* background-color: #f4f7ff; */
-  }
+	max-width: 100% !important;
+	max-height: 2000px;
+	overflow: hidden;
+	/* background-color: #f4f7ff; */
+}
 
- .scroll-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.scroll-section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 	padding: calc((100vh - 640px) / 2) 0;
 	/* animation: colorChange 1s linear; */
 }
@@ -31,65 +31,65 @@
 /* test for scrolling animation background color change */
 @keyframes colorChange {
 	0% {
-	  background-color: rgb(139, 201, 228);
+		background-color: rgb(139, 201, 228);
 	}
 	100% {
-	  background-color: rgb(19, 48, 97);
+		background-color: rgb(19, 48, 97);
 	}
-  }
-  
-#dt-consumer-security {
-  width:440px;
-  margin: 147px auto;
-  visibility: hidden;
 }
 
-  .dt-consumer-exp {
-    max-width: 1440px;
- 
-  }
-  .xero-container {
-    max-width: 1080px;
-  }
+#dt-consumer-security {
+	width: 440px;
+	margin: 147px auto;
+	visibility: hidden;
+}
 
-  .paragraph.paragraph--type--lottie-animation .xero-container, .paragraph-wrapper.paragraph--type--lottie-animation .xero-container {
-    max-width: 1195px;
-  }
+.dt-consumer-exp {
+	max-width: 1440px;
+}
+.xero-container {
+	max-width: 1080px;
+}
 
-  .consumer-security-copy, .dt-consumer-banks-title {
-    display: none;
-  }
+.paragraph.paragraph--type--lottie-animation .xero-container,
+.paragraph-wrapper.paragraph--type--lottie-animation .xero-container {
+	max-width: 1195px;
+}
 
-  .arrow {
-    width: 100%;
-    position: absolute;
-    top: 25px;
-    text-align: center;
-    z-index: 1;
-  }
+.consumer-security-copy,
+.dt-consumer-banks-title {
+	display: none;
+}
 
-  #dt-consumer-banks {
-    width: 580px;
-    margin: 150px auto 50px auto;
-  }
+.arrow {
+	width: 100%;
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	z-index: 1;
+}
 
-  #consumer-banks-paragraph {
-    margin-top: 147px;
-  }
-  
-  .consumer-security-content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 500px;
-  }
+#dt-consumer-banks {
+	width: 580px;
+	margin: 150px auto 50px auto;
+}
 
-  .background-transition {
-	background-color: #F4F7FF;
+#consumer-banks-paragraph {
+	margin-top: 147px;
+}
+
+.consumer-security-content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 500px;
+}
+
+.background-transition {
+	background-color: #f4f7ff;
 	transition: 0.5s all;
-  }
-
+}
 
 /* stolen from current site */
 
@@ -300,5 +300,3 @@
 		margin-bottom: 1.875rem;
 	}
 }
-
-

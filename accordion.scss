@@ -1,3 +1,14 @@
+.accordion-inner-wrapper {
+	@media (max-width: 1200px) {
+		padding-inline: 24px;
+	}
+}
+
+.accordions-wrapper {
+	@media (max-width: 1000px) {
+		margin-top: 250px;
+	}
+}
 .accordion-component {
 	display: grid;
 	grid-template-columns: repeat(2, calc(50% - 44px));

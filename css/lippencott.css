@@ -14,9 +14,12 @@
 
 .consumerexp-container {
 	max-width: 100% !important;
-	max-height: 2000px;
+	max-height: 2500px;
 	overflow: hidden;
 	/* background-color: #f4f7ff; */
+	@media (max-width: 800px) {
+		max-height: 2000px;
+	}
 }
 
 .scroll-section {

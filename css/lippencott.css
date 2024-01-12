@@ -12,7 +12,8 @@
 	/* animation-fill-mode: both; */
 }
 
-.consumerexp-container {
+.consumerexp-container,
+.consumerexp-container-mobile {
 	max-width: 100% !important;
 	max-height: 2500px;
 	overflow: hidden;
@@ -22,7 +23,26 @@
 	}
 }
 
-.scroll-section {
+.consumerexp-container {
+	display: block;
+	@media (max-width: 600px) {
+		display: none;
+	}
+}
+
+.consumerexp-container-mobile {
+	max-height: 2200px;
+}
+
+.consumerexp-container-mobile {
+	display: none;
+	@media (max-width: 600px) {
+		display: block;
+	}
+}
+
+.scroll-section,
+.scroll-section-mobile {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -50,6 +70,11 @@
 .dt-consumer-exp {
 	max-width: 1440px;
 }
+
+.m-consumer-exp {
+	max-width: 600px;
+}
+
 .xero-container {
 	max-width: 1080px;
 }
@@ -301,5 +326,23 @@
 @media only screen and (max-width: 600px) {
 	.accordion-body {
 		margin-bottom: 1.875rem;
+	}
+}
+
+#block-lookforpazeatyournextcheckout {
+	@media (max-width: 600px) {
+		padding-inline: 15px;
+	}
+}
+
+.paragraph.consumer-light #consumer-banks-paragraph .paragraph-title {
+	@media (max-width: 600px) {
+		top: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.paragraph.consumer-light #consumer-security-paragraph .paragraph-body {
+		bottom: 200px;
 	}
 }

@@ -83,11 +83,12 @@
 .paragraph-wrapper.paragraph--type--lottie-animation .xero-container {
 	max-width: 1195px;
 }
-
+/*
 .consumer-security-copy,
 .dt-consumer-banks-title {
 	display: none;
 }
+*/
 
 .arrow {
 	width: 100%;
@@ -343,6 +344,7 @@
 
 @media screen and (max-width: 600px) {
 	.paragraph.consumer-light #consumer-security-paragraph .paragraph-body {
-		bottom: 200px;
+		/* bottom: 200px; */
+		bottom: 168px;
 	}
 }

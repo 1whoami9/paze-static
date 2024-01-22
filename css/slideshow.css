@@ -16,6 +16,9 @@
 .ways-to-use .slick-dotted.slick-slider {
   margin-block-end: 40px;
 }
+.ways-to-use .slick-list {
+  border-radius: 24px;
+}
 .ways-to-use .slick-dots {
   bottom: 25px;
 }
@@ -65,11 +68,11 @@
   mix-blend-mode: multiply;
   height: 378px;
   flex-shrink: 0;
-  border-radius: 24px;
   color: white;
   position: relative;
   display: flex;
   align-items: center;
+  border-radius: 0;
   justify-content: center;
 }
 @media (max-width: 800px) {

@@ -83,6 +83,7 @@
 		display: flex;
 		// height: auto;
 		align-items: center;
+		border-radius: 0;
 		justify-content: center;
 		@media (max-width: 800px) {
 			background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%);

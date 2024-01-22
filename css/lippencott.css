@@ -397,3 +397,31 @@
 .header #block-hamburgertoggle {
 	margin-left: 0;
 }
+
+.block-content .body h2,
+.block-content .view-mode--title h2,
+.block-content .search-results-block .no-results h2,
+.search-results-block .block-content .no-results h2,
+.block-content .paragraph .paragraph-body h2,
+.paragraph .block-content .paragraph-body h2,
+.block-content .paragraph-wrapper .paragraph-body h2,
+.paragraph-wrapper .block-content .paragraph-body h2,
+.block-content .help h2,
+.block-content form h2,
+.block-content .sidebar ul.menu h2,
+.sidebar .block-content ul.menu h2,
+.block-content .body .h2,
+.block-content .view-mode--title .h2,
+.block-content .search-results-block .no-results .h2,
+.search-results-block .block-content .no-results .h2,
+.block-content .paragraph .paragraph-body .h2,
+.paragraph .block-content .paragraph-body .h2,
+.block-content .paragraph-wrapper .paragraph-body .h2,
+.paragraph-wrapper .block-content .paragraph-body .h2,
+.block-content .help .h2,
+.block-content form .h2,
+.block-content .sidebar ul.menu .h2,
+.sidebar .block-content ul.menu .h2 {
+	font-family: "Paze Sans";
+	font-weight: bold;
+}

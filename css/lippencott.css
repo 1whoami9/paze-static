@@ -345,6 +345,7 @@
 }
 
 .paragraph.consumer-light #consumer-banks-paragraph .paragraph-title {
+	max-width: 500px;
 	@media (max-width: 600px) {
 		top: 0;
 	}

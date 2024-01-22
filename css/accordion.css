@@ -4,10 +4,14 @@
     padding-inline: 24px;
   }
 }
+.accordion-inner-wrapper .paragraph-title {
+  font-family: "Paze Sans";
+  font-weight: bold;
+}
 
 @media (max-width: 1000px) {
   .accordions-wrapper {
-    margin-top: 200px;
+    margin-top: 250px;
   }
 }
 

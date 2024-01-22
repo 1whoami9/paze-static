@@ -18,6 +18,10 @@
 		margin-block-end: 40px;
 	}
 
+	.slick-list {
+		border-radius: 24px;
+	}
+
 	.slick-dots {
 		bottom: 25px;
 	}
@@ -74,7 +78,6 @@
 		mix-blend-mode: multiply;
 		height: 378px;
 		flex-shrink: 0;
-		border-radius: 24px;
 		color: white;
 		position: relative;
 		display: flex;

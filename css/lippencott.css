@@ -348,3 +348,15 @@
 		bottom: 168px;
 	}
 }
+
+@media (min-height: 900px) and (max-height: 1200px) {
+	.hero-wrapper .consumer-dark {
+		padding-bottom: 300px !important;
+	}
+}
+
+@media (min-height: 1200px) {
+	.hero-wrapper .consumer-dark {
+		padding-bottom: 500px !important;
+	}
+}

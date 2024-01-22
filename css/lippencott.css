@@ -360,3 +360,13 @@
 		padding-bottom: 500px !important;
 	}
 }
+
+.footer .user-type__items a,
+.header .user-type__items a {
+	color: #84e2f7;
+}
+
+.footer a.is-active,
+.header .user-type__items a.is-active {
+	color: white;
+}

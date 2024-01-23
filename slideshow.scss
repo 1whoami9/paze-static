@@ -3,6 +3,20 @@
 
 	margin: 80px auto;
 
+	.media-lottiefile {
+		display: block;
+		@media (max-width: 800px) {
+			display: none;
+		}
+	}
+
+	.mobile-lottie-media {
+		display: none;
+		@media (max-width: 800px) {
+			display: block;
+		}
+	}
+
 	@media (max-width: 800px) {
 		max-width: 342px;
 		max-height: 512px;
@@ -74,7 +88,7 @@
 
 	.slick-slide {
 		// opacity: 0.5;
-		background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%);
+		/* background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%); */
 		mix-blend-mode: multiply;
 		height: 378px;
 		flex-shrink: 0;
@@ -86,11 +100,12 @@
 		border-radius: 0;
 		justify-content: center;
 		@media (max-width: 800px) {
-			background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%);
+			/* background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%); */
 			height: 512px;
 		}
 	}
 
+	/*
 	.red {
 		// background-color: #ff595880;
 		background-color: #ff5958;
@@ -114,6 +129,7 @@
 		background-color: #3f496d;
 		// padding: 48px 0 95px 39px;
 	}
+	*/
 
 	p {
 		font-family: Paze Sans;

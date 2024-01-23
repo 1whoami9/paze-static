@@ -1,6 +1,47 @@
 .ways-to-use {
   max-width: 575px;
   margin: 80px auto;
+  /*
+  .red {
+  	// background-color: #ff595880;
+  	background-color: #ff5958;
+  	// padding: 45px 37px 52px 41px;
+  }
+
+  .yellow {
+  	// background-color: #f2ab3b80;
+  	background-color: #f2ab3b;
+  	// padding: 44px 37px 54px 41px;
+  }
+
+  .green {
+  	// background-color: #66cd5880;
+  	background-color: #66cd58;
+  	// padding: 51px 31px 52px 41px;
+  }
+
+  .blue {
+  	// background-color: #3f496d80;
+  	background-color: #3f496d;
+  	// padding: 48px 0 95px 39px;
+  }
+  */
+}
+.ways-to-use .media-lottiefile {
+  display: block;
+}
+@media (max-width: 800px) {
+  .ways-to-use .media-lottiefile {
+    display: none;
+  }
+}
+.ways-to-use .mobile-lottie-media {
+  display: none;
+}
+@media (max-width: 800px) {
+  .ways-to-use .mobile-lottie-media {
+    display: block;
+  }
 }
 @media (max-width: 800px) {
   .ways-to-use {
@@ -64,7 +105,7 @@
   margin-block-end: 24px;
 }
 .ways-to-use .slick-slide {
-  background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%);
+  /* background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%); */
   mix-blend-mode: multiply;
   height: 378px;
   flex-shrink: 0;
@@ -77,21 +118,9 @@
 }
 @media (max-width: 800px) {
   .ways-to-use .slick-slide {
-    background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%);
+    /* background: linear-gradient(335deg, #000 -0.46%, rgba(0, 0, 0, 0) 50%); */
     height: 512px;
   }
-}
-.ways-to-use .red {
-  background-color: #ff5958;
-}
-.ways-to-use .yellow {
-  background-color: #f2ab3b;
-}
-.ways-to-use .green {
-  background-color: #66cd58;
-}
-.ways-to-use .blue {
-  background-color: #3f496d;
 }
 .ways-to-use p {
   font-family: Paze Sans;

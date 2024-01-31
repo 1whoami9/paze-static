@@ -135,9 +135,16 @@
 
 					const endFrame = e.startPos + lottieAnimation.getDuration(true);
 
+					// handle background color transition
+					if (e.scrollPos > (e.startPos + 172) && e.scrollPos < endFrame) {
+						scrollSection.classList.add("background-transition");
+					}
+					if (e.scrollPos < (e.startPos + 172)) {
+						scrollSection.classList.remove("background-transition");
+					}
+
 					if (e.scrollPos > e.startPos && e.scrollPos < endFrame) {
 						lottieAnimation.goToAndStop(e.scrollPos - e.startPos, true);
-						scrollSection.classList.add("background-transition");
 					} else if (e.scrollPos < e.startPos) {
 						lottieAnimation.goToAndStop(0, true);
 						scrollSection.classList.remove("background-transition");

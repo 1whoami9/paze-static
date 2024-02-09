@@ -86,7 +86,8 @@
 .ways-to-use a {
   color: #151b33;
   text-align: center;
-  font-family: Paze Sans;
+  font-family: "Paze Sans";
+  font-family: "PazeSans-Bold";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -96,6 +97,7 @@
 }
 .ways-to-use .section-title {
   font-family: "Paze Sans";
+  font-family: "PazeSans-Bold";
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -123,7 +125,8 @@
   }
 }
 .ways-to-use p {
-  font-family: Paze Sans;
+  font-family: "Paze Sans";
+  font-family: "PazeSans-Bold";
   font-size: 59.838px;
   font-style: normal;
   font-weight: 700;

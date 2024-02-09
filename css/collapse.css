@@ -42,6 +42,9 @@
 .accordion .panel-group {
   border-bottom: 2px solid transparent;
 }
+.accordion-button h3 {
+  font-family: "PazeSans-Bold" !important;
+}
 
 .collapse-item {
   border-top: 2px solid transparent;

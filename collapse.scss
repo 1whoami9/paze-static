@@ -67,6 +67,12 @@ $transition-time: 0.5s;
 	.panel-group {
 		border-bottom: $collapse-border-width solid $collapse-border-color;
 	}
+
+	&-button {
+		h3 {
+			font-family: $font-family-heading !important;
+		}
+	}
 }
 
 .collapse {

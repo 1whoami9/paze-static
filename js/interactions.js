@@ -40,6 +40,27 @@
 		businessPage = true;
 	}
 
+	$(".methods-carousel").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 10000,
+		dots: true,
+		infinite: true,
+		speed: 2000,
+		slidesToShow: 1,
+		adaptiveHeight: true,
+		arrows: false,
+	});
+
+	$(".methods-carousel").on("reInit init", function (event, slick) {
+		targetLottie = $(slick.$slides[0])
+			.find("lottie-player:visible")
+			.get(0)
+			.getLottie();
+		targetLottie.goToAndPlay(0, true);
+	});
+
 	// play desktop animations
 	if ($(window).width() > 600) {
 		// Consumer desktop animations
@@ -136,10 +157,10 @@
 					const endFrame = e.startPos + lottieAnimation.getDuration(true);
 
 					// handle background color transition
-					if (e.scrollPos > (e.startPos + 172) && e.scrollPos < endFrame) {
+					if (e.scrollPos > e.startPos + 172 && e.scrollPos < endFrame) {
 						scrollSection.classList.add("background-transition");
 					}
-					if (e.scrollPos < (e.startPos + 172)) {
+					if (e.scrollPos < e.startPos + 172) {
 						scrollSection.classList.remove("background-transition");
 					}
 
@@ -185,6 +206,23 @@
 				var lottie = dtConBanks.get(0).getLottie();
 				lottie.goToAndStop(1, true);
 			});
+
+			$(".methods-carousel").on(
+				"beforeChange",
+				function (event, slick, currentSlide, nextSlide) {
+					targetLottie = $(slick.$slides[nextSlide])
+						.find("lottie-player:visible")
+						.get(0)
+						.getLottie();
+					targetLottie.goToAndPlay(0, true);
+
+					formertargetLottie = $(slick.$slides[currentSlide])
+						.find("lottie-player:visible")
+						.get(0)
+						.getLottie();
+					formertargetLottie.stop();
+				}
+			);
 		}
 	}
 

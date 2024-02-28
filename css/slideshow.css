@@ -1,31 +1,6 @@
 .ways-to-use {
   max-width: 575px;
   margin: 80px auto;
-  /*
-  .red {
-  	// background-color: #ff595880;
-  	background-color: #ff5958;
-  	// padding: 45px 37px 52px 41px;
-  }
-
-  .yellow {
-  	// background-color: #f2ab3b80;
-  	background-color: #f2ab3b;
-  	// padding: 44px 37px 54px 41px;
-  }
-
-  .green {
-  	// background-color: #66cd5880;
-  	background-color: #66cd58;
-  	// padding: 51px 31px 52px 41px;
-  }
-
-  .blue {
-  	// background-color: #3f496d80;
-  	background-color: #3f496d;
-  	// padding: 48px 0 95px 39px;
-  }
-  */
 }
 .ways-to-use .media-lottiefile {
   display: block;
@@ -59,6 +34,12 @@
 }
 .ways-to-use .slick-list {
   border-radius: 24px;
+}
+.ways-to-use .slick-active {
+  z-index: 10000;
+}
+.ways-to-use .slick-slide {
+  z-index: 1000;
 }
 .ways-to-use .slick-dots {
   bottom: 25px;
@@ -125,7 +106,6 @@
   }
 }
 .ways-to-use p {
-  font-family: "Paze Sans";
   font-family: "PazeSans-Bold";
   font-size: 59.838px;
   font-style: normal;

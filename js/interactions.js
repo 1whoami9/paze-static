@@ -44,7 +44,7 @@
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 10000,
+		autoplaySpeed: 2500,
 		dots: true,
 		infinite: true,
 		speed: 2000,
@@ -53,7 +53,7 @@
 		arrows: false,
 	});
 
-	$(".methods-carousel").on("reInit init", function (event, slick) {
+	$(".methods-carousel").on("init", function (event, slick) {
 		targetLottie = $(slick.$slides[0])
 			.find("lottie-player:visible")
 			.get(0)
@@ -216,11 +216,11 @@
 						.getLottie();
 					targetLottie.goToAndPlay(0, true);
 
-					formertargetLottie = $(slick.$slides[currentSlide])
-						.find("lottie-player:visible")
-						.get(0)
-						.getLottie();
-					formertargetLottie.stop();
+					// formertargetLottie = $(slick.$slides[currentSlide])
+					// 	.find("lottie-player:visible")
+					// 	.get(0)
+					// 	.getLottie();
+					// formertargetLottie.stop();
 				}
 			);
 		}

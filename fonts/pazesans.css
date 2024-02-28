@@ -1,24 +1,32 @@
 /*PazeSans Font*/
 @font-face {
-  font-family: 'PazeSans-Bold';
-  src: url('../fonts/PazeSans/PazeSans-Bold/PazeSans-Bold.woff2');
-  src: url('../fonts/PazeSans/PazeSans-Bold/PazeSans-Bold.woff2') format('woff2'), url('../fonts/PazeSans/PazeSans-Bold/PazeSans-Bold.woff') format('woff');
-  font-weight: bold;
-  font-display: swap;
+	font-family: "PazeSans-Bold";
+	src: url("fonts/PazeSans/PazeSans-Bold_web/PazeSans-Bold.woff2");
+	src: url("fonts/PazeSans/PazeSans-Bold_web/PazeSans-Bold.woff2")
+			format("woff2"),
+		url("fonts/PazeSans/PazeSans-Bold_web/PazeSans-Bold.woff") format("woff");
+	font-weight: bold;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'PazeSans-SemiBold';
-  src: url('../fonts/PazeSans/PazeSans-SemiBold/PazeSans-SemiBold.woff2');
-  src: url('../fonts/PazeSans/PazeSans-SemiBold/PazeSans-SemiBold.woff2') format('woff2'), url('../fonts/PazeSans/PazeSans-SemiBold/PazeSans-SemiBold.woff') format('woff');
-  font-weight: 500;
-  font-display: swap;
+	font-family: "PazeSans-SemiBold";
+	src: url("fonts/PazeSans/PazeSans-SemiBold_web/PazeSans-SemiBold.woff2");
+	src: url("fonts/PazeSans/PazeSans-SemiBold_web/PazeSans-SemiBold.woff2")
+			format("woff2"),
+		url("fonts/PazeSans/PazeSans-SemiBold_web/PazeSans-SemiBold.woff")
+			format("woff");
+	font-weight: 500;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'PazeSans-Regular';
-  src: url('../fonts/PazeSans/PazeSans-Regular/PazeSans-Regular.woff2');
-  src: url('../fonts/PazeSans/PazeSans-Regular/PazeSans-Regular.woff2') format('woff2'), url('../fonts/PazeSans/PazeSans-Regular/PazeSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-display: swap;
+	font-family: "PazeSans-Regular";
+	src: url("fonts/PazeSans/PazeSans-Regular_web/PazeSans-Regular.woff2");
+	src: url("fonts/PazeSans/PazeSans-Regular_web/PazeSans-Regular.woff2")
+			format("woff2"),
+		url("fonts/PazeSans/PazeSans-Regular_web/PazeSans-Regular.woff")
+			format("woff");
+	font-weight: normal;
+	font-display: swap;
 }

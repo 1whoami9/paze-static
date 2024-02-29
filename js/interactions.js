@@ -157,10 +157,10 @@
 					const endFrame = e.startPos + lottieAnimation.getDuration(true);
 
 					// handle background color transition
-					if (e.scrollPos > e.startPos + 172 && e.scrollPos < endFrame) {
+					if (e.scrollPos > e.startPos + 142 && e.scrollPos < endFrame) {
 						scrollSection.classList.add("background-transition");
 					}
-					if (e.scrollPos < e.startPos + 172) {
+					if (e.scrollPos < e.startPos + 142) {
 						scrollSection.classList.remove("background-transition");
 					}
 

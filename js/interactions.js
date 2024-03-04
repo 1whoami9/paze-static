@@ -58,7 +58,10 @@
 			.find("lottie-player:visible")
 			.get(0)
 			.getLottie();
-		targetLottie.goToAndPlay(0, true);
+		setTimeout(() => {
+			targetLottie.goToAndPlay(0, true);
+		}, 750);
+		// targetLottie.goToAndPlay(0, true);
 	});
 
 	// play desktop animations
